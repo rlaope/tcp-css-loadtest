@@ -138,6 +138,7 @@ public class NiceMockServer {
             out.flush();
 
             long elapsed = System.currentTimeMillis() - startTime;
+
             log.info("[REQ-{}] Response sent, size={} bytes, elapsed={} ms",
                 reqId, responseBytes.length, elapsed);
 
